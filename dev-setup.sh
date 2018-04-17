@@ -7,4 +7,7 @@ curl -o ~/.dircolors https://raw.githubusercontent.com/seebi/dircolors-solarized
 curl -o ~/.git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
 
 echo source $(pwd)/bashrc > ~/.bashrc
+
 ln -fs $(pwd)/gitconfig ~/.gitconfig
+
+source ~/.bashrc
