@@ -25,13 +25,13 @@ shopt -s checkwinsize
 set -o vi
 export EDITOR=vim
 
-eval `dircolors dircolors`
+eval $(dircolors ~/.dircolors)
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
-source git-prompt.sh
+source ~/.git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
 export GIT_PS1_SHOWSTASHSTATE=1
 export GIT_PS1_SHOWUNTRACKEDFILES=1
