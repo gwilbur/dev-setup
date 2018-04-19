@@ -1,3 +1,5 @@
+# Loosly based on ubuntu 17.10 default .bashrc script
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
