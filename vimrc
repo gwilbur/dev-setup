@@ -55,3 +55,4 @@ let g:airline#extensions#tabline#enabled=1
 set noswapfile
 set nonumber
 set nojoinspaces
+set cursorline
